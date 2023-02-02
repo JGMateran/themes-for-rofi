@@ -1,4 +1,11 @@
 * {
+  /* colors-background: white; */
+  /* colors-border: #e2e2e2; */
+  /* colors-element: #6f6f6f; */
+  /* colors-selected-text: #171717; */
+  /* colors-selected: #ededed; */
+  /* colors-text: #171717; */
+
   background-color: transparent;
   font: "Ubuntu Regular 11";
   text-color: @colors-text;
@@ -34,12 +41,12 @@ element {
   spacing: 12px;
   padding: 8px;
   border-radius: 8px;
-  text-color: #6f6f6f;
+  text-color: @colors-element;
 }
 
 element selected {
   background-color: @colors-selected;
-  text-color: #171717;
+  text-color: @colors-selected-text;
 }
 
 element-text {
