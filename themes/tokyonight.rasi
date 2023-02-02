@@ -1,0 +1,61 @@
+* {
+  background-color: transparent;
+  text-color: #fff;
+  spacing: 0;
+  padding: 0;
+  margin: 0;
+  font: "Ubuntu Regular 12";
+
+  colors-background: rgb(26 27 38 / 95%);
+  colors-placeholder: #565f89;
+  colors-border: rgb(86 95 137 / 50%);
+  colors-selected: rgb(36 40 59 / 80%);
+
+  sizes-gutter: 16px;
+}
+
+icon-search,
+entry,
+element-icon,
+element-text {
+  vertical-align: 0.5;
+}
+
+mainbox {
+  border: 1px solid;
+  border-color: @colors-border;
+  border-radius: 16px;
+  background-color: @colors-background;
+}
+
+inputbar {
+  padding: @sizes-gutter;
+  border: 0 0 1px solid;
+  border-color: @colors-border;
+  children: [entry];
+}
+
+entry {
+  placeholder: "Type here to search";
+  placeholder-color: @colors-placeholder;
+}
+
+listview {
+  columns: 2;
+  lines: 8;
+  padding: @sizes-gutter;
+}
+
+element {
+  spacing: 16px;
+  padding: 16px 20px;
+  border-radius: 9999px;
+}
+
+element-icon {
+  size: 1.25em;
+}
+
+element selected {
+  background-color: @colors-selected;
+}
