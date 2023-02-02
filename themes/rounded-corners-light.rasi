@@ -40,14 +40,17 @@ element {
   spacing: 12px;
   padding: 8px;
   border-radius: 8px;
+  text-color: #6f6f6f;
 }
 
 element selected {
   background-color: @colors-selected;
+  text-color: #171717;
 }
 
 element-text {
-  text-color: #6f6f6f;
+  background-color: inherit;
+  text-color: inherit;
 }
 
 element-icon {
