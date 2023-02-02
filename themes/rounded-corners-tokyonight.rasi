@@ -1,0 +1,11 @@
+* {
+  colors-background: rgb(26 27 38 / 95%);
+  colors-placeholder: #cfc9c2;
+  colors-border: rgb(86 95 137 / 50%);
+  colors-selected: rgb(36 40 59 / 80%);
+  colors-selected-text: white;
+  colors-text: white;
+  colors-element: #cfc9c2;
+}
+
+@import "rounded-corners-common.rasi"
