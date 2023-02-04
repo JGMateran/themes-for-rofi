@@ -1,0 +1,68 @@
+* {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  spacing: 0;
+  text-color: @colors-text;
+  font: "Ubuntu 12";
+}
+
+element-text,
+element-icon,
+mode-switcher {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+icon-search,
+entry,
+element-icon,
+element-text {
+  vertical-align: 0.5;
+}
+
+mainbox {
+  background-color: @colors-background;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: @colors-border;
+}
+
+listview {
+  lines: 6;
+  columns: 2;
+}
+
+inputbar {
+  padding: 19px;
+  spacing: 16px;
+  children: [prompt, entry];
+  border: 0 0 1px solid;
+  border-color: @colors-border;
+}
+
+prompt {
+  font: "Ubuntu 18";
+}
+
+entry {
+  placeholder: "Search";
+  placeholder-color: @colors-placeholder;
+}
+
+element {
+  padding: 16px;
+  spacing: 16px;
+  text-color: @colors-element;
+  border: 0 0 0 3px solid;
+}
+
+element selected {
+  text-color: @colors-element-selected-text;
+  background-color: @colors-element-selected;
+  border-color: @colors-border-selected;
+}
+
+element-icon {
+  size: 1.25em;
+}
