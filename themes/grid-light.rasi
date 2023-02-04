@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+  background-color: transparent;
+  text-color: black;
+  font: "Ubuntu 12";
+
+  colors-border: #e2e2e2;
+  colors-selected-text: #171717;
+  colors-selected: #ededed;
+
+  colors-background: white/95%;
+  colors-accent: #60cdff;
+  colors-inputbar: #1f1f1f80;
+  colors-placeholder: #cfc9c2;
+  colors-element: #6f6f6f;
+}
+
+@import "grid-common.rasi"
