@@ -8,5 +8,4 @@
   colors-text: #171717;
 }
 
-
 @import "rounded-corners-common.rasi"
