@@ -16,6 +16,13 @@ mainbox {
   children: [inputbar, message, mode-switcher, listview];
 }
 
+message {
+  padding: 16px;
+  background-color: @colors-selected;
+  border-radius: 8px 8px 0 0;
+  text-color: inherit;
+}
+
 mode-switcher {
   expand: false;
 }
