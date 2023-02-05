@@ -1,0 +1,17 @@
+@import "tailwind-colors.rasi"
+
+* {
+  background-color: transparent;
+  text-color: @colors-slate-900;
+  font: "Ubuntu 11";
+  spacing: 0;
+
+  colors-border: @colors-slate-200;
+  colors-background: rgba(241, 245, 249, 0.97);
+  colors-placeholder: @colors-slate-500;
+  colors-element: @colors-slate-700;
+  colors-selected: @colors-slate-200;
+  colors-selected-text: @colors-slate-900;
+}
+
+@import "separate-common.rasi"
