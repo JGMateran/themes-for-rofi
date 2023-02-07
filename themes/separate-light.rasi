@@ -3,7 +3,6 @@
 * {
   background-color: transparent;
   text-color: @colors-slate-900;
-  font: "Ubuntu 11";
   spacing: 0;
 
   colors-border: @colors-slate-200;

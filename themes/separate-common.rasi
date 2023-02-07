@@ -35,6 +35,7 @@ inputbar {
   border-radius: 8px;
   border: 1px solid;
   border-color: @colors-border;
+  font: "Inter 30";
 }
 
 listview {
@@ -56,7 +57,7 @@ button {
   padding: 16px;
   border: 0 0 3px;
   border-color: @colors-background;
-  font: "Ubuntu 14";
+  font: "Inter 14";
 }
 
 button selected {
@@ -71,13 +72,17 @@ inputbar {
 }
 
 prompt {
-  font: "Ubuntu 16";
+  font: "Inter 16";
 }
 
 element {
   padding: 16px;
   spacing: 16px;
   text-color: @colors-element;
+}
+
+element-text {
+  font: "Inter 11";
 }
 
 element-icon {
@@ -92,4 +97,5 @@ element selected {
 entry {
   placeholder: "Type here to search";
   placeholder-color: @colors-placeholder;
+  font: "Inter 11";
 }
