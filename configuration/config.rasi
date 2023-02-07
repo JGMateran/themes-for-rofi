@@ -1,0 +1,9 @@
+configuration {
+  display-drun: "";
+  display-run: "";
+  display-filebrowser: "";
+  display-window: "";
+  display-ssh: "";
+  display-combi: "";
+}
+
