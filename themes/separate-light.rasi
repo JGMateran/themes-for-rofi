@@ -6,7 +6,7 @@
   spacing: 0;
 
   colors-border: @colors-slate-200;
-  colors-background: rgba(241, 245, 249, 0.97);
+  colors-background: rgba(241, 245, 249, 0.95);
   colors-placeholder: @colors-slate-500;
   colors-element: @colors-slate-700;
   colors-selected: @colors-slate-200;
