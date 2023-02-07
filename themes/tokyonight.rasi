@@ -4,7 +4,7 @@
   spacing: 0;
   padding: 0;
   margin: 0;
-  font: "Ubuntu Regular 12";
+  font: "Inter 12";
 
   colors-background: rgb(26 27 38 / 95%);
   colors-placeholder: #565f89;

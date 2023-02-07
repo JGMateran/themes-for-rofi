@@ -33,7 +33,7 @@ inputbar {
 }
 
 prompt {
-  font: "Ubuntu 16";
+  font: "Inter 16";
 }
 
 icon-search {
@@ -51,7 +51,7 @@ listview {
 }
 
 entry {
-  font: "Ubuntu 12";
+  font: "Inter 12";
   placeholder: "Type here to search";
   placeholder-color: @colors-placeholder;
 }
@@ -68,7 +68,7 @@ element {
 }
 
 element-text {
-  font: "Ubuntu 10";
+  font: "Inter 10";
   horizontal-align: 0.5;
 }
 

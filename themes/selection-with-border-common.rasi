@@ -4,7 +4,7 @@
   margin: 0;
   spacing: 0;
   text-color: @colors-text;
-  font: "Ubuntu 12";
+  font: "Inter 12";
 }
 
 element-text,
@@ -42,7 +42,7 @@ inputbar {
 }
 
 prompt {
-  font: "Ubuntu 18";
+  font: "Inter 18";
 }
 
 entry {

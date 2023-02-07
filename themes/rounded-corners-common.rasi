@@ -7,7 +7,7 @@
   /* colors-text: #171717; */
 
   background-color: transparent;
-  font: "Ubuntu Regular 11";
+  font: "Inter 11";
   text-color: @colors-text;
 }
 
@@ -22,7 +22,7 @@ inputbar {
   border: 0 0 1px solid;
   border-color: @colors-border;
   children: [entry];
-  font: "Ubuntu Regular 12";
+  font: "Inter 12";
 }
 
 entry {
