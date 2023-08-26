@@ -1,0 +1,138 @@
+* {
+  colors-background: rgba(24, 24, 22, 0.95);
+  colors-selected: rgba(40, 40, 38, 0.95);
+  colors-placeholder: rgba(131, 129, 122, 0.95);
+  colors-border: rgba(40, 40, 38, 0.95);
+  colors-text: rgba(255, 255, 255, 0.95);
+}
+
+window {
+  background-color: transparent;
+  children: [mainbox];
+  location: north;
+  anchor: north;
+  padding: 64px 0 0;
+}
+
+mainbox {
+  children: [inputbar, message, mode-switcher, listview];
+  background-color: transparent;
+  spacing: 0;
+}
+
+mode-switcher {
+  margin: 0 0 8px 0;
+  background-color: transparent;
+  border-radius: 0 0 12px 12px;
+  spacing: 0;
+  border: 0 0 1px 1px solid;
+  border-color: @colors-border;
+}
+
+button {
+  background-color: @colors-background;
+  text-color: @colors-text;
+  padding: 16px 8px;
+  cursor: pointer;
+  border: 0 1px 0 0;
+  border-color: @colors-border;
+}
+
+button selected {
+  background-color: @colors-selected;
+}
+
+listview {
+  columns: 1;
+  lines: 6;
+  spacing: 0;
+  fixed-height: false;
+  fixed-columns: false;
+  background-color: transparent;
+  border-radius: 12px;
+  scrollbar: false;
+  cycle: true;
+}
+
+scrollbar {
+  background-color: @colors-background;
+  handle-color: white;
+  border-radius: 12px;
+  border: 0 0 0 1px solid;
+  border-color: @colors-border;
+}
+
+element,
+element-text,
+element-icon {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+element {
+  background-color: @colors-background;
+  padding: 16px 8px;
+  border: 0 0 1px 0 solid;
+  border-color: @colors-border;
+  spacing: 8px;
+}
+
+element selected {
+  background-color: @colors-selected;
+}
+
+element-icon {
+  padding: 0 8px;
+  size: 1em;
+}
+
+element-text {
+  font: "Inter 12";
+  text-color: @colors-text;
+}
+
+inputbar {
+  children: [prompt, entry];
+  background-color: @colors-background;
+  border-radius: 12px 12px 0 0;
+  border: 1px solid;
+  border-color: @colors-border;
+}
+
+prompt {
+  layout: vertical;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+  padding: 0 16px;
+  text-color: @colors-text;
+  background-color: transparent;
+}
+
+entry {
+  vertical-align: 0.5;
+  font: "Inter 12";
+  padding: 16px 8px;
+  placeholder: "Type here to search";
+  cursor: text;
+  placeholder-color: @colors-placeholder;
+  background-color: transparent;
+  color: white;
+}
+
+error-message {
+  padding: 16px;
+  background-color: @colors-background;
+  border-radius: 12px;
+}
+
+textbox {
+  background-color: transparent;
+  text-color: @colors-text;
+  font: "Inter 12";
+}
+
+message {
+  padding: 12px;
+  background-color: @colors-border;
+  border-radius: 0 0 12px 12px;
+}
