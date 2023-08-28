@@ -1,0 +1,18 @@
+@import "darken.rasi"
+
+* {
+  indigo-2: hsl(223, 100%, 98.6%);
+  indigo-8: hsl(226, 75.4%, 74.5%);
+  indigo-11: hsl(226, 55.0%, 45.0%);
+  indigo-12: hsl(226, 50.0%, 24.0%);
+
+  colors-background: @indigo-12;
+  colors-selected: @indigo-11;
+  colors-placeholder: @indigo-8;
+  colors-border: @indigo-12;
+  colors-text: @indigo-2;
+}
+
+window {
+  width: 500px;
+}
