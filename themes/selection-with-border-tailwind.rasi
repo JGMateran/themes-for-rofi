@@ -1,6 +1,17 @@
-@import "tailwind-colors.rasi"
-
 * {
+  colors-slate-50: #f8fafc;
+  colors-slate-100: #f1f5f9;
+  colors-slate-200: #e2e8f0;
+  colors-slate-300: #cbd5e1;
+  colors-slate-400: #94a3b8;
+  colors-slate-500: #64748b;
+  colors-slate-600: #475569;
+  colors-slate-700: #334155;
+  colors-slate-800: #1e293b;
+  colors-slate-900: #0f172a;
+
+  colors-blue-600: #0891b2;
+
   sizes-border-selected: 3px;
 
   colors-background: rgba(15, 23, 42, 0.98);
@@ -11,6 +22,71 @@
   colors-element-selected: @colors-slate-800;
   colors-border-selected: @colors-blue-600;
   colors-text: @colors-slate-200;
+
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  spacing: 0;
+  text-color: @colors-text;
+  font: "Inter 12";
 }
 
-@import "selection-with-border-common.rasi"
+element-text,
+element-icon,
+mode-switcher {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+icon-search,
+entry,
+element-icon,
+element-text {
+  vertical-align: 0.5;
+}
+
+mainbox {
+  background-color: @colors-background;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: @colors-border;
+}
+
+listview {
+  lines: 6;
+  columns: 2;
+}
+
+inputbar {
+  padding: 19px;
+  spacing: 16px;
+  children: [prompt, entry];
+  border: 0 0 1px solid;
+  border-color: @colors-border;
+}
+
+prompt {
+  font: "Inter 18";
+}
+
+entry {
+  placeholder: "Search";
+  placeholder-color: @colors-placeholder;
+}
+
+element {
+  padding: 16px;
+  spacing: 16px;
+  text-color: @colors-element;
+  border: 0 0 0 3px solid;
+}
+
+element selected {
+  text-color: @colors-element-selected-text;
+  background-color: @colors-element-selected;
+  border-color: @colors-border-selected;
+}
+
+element-icon {
+  size: 1.25em;
+}

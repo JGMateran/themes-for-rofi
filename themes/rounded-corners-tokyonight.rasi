@@ -1,3 +1,8 @@
+
+@import "tailwind-colors.rasi"
+
+@import "rounded-corners-light.rasi"
+
 * {
   colors-background: rgb(26 27 38 / 95%);
   colors-placeholder: #cfc9c2;
@@ -7,5 +12,3 @@
   colors-text: white;
   colors-element: #cfc9c2;
 }
-
-@import "rounded-corners-common.rasi"
