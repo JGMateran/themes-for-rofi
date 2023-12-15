@@ -1,0 +1,22 @@
+@import "darken.rasi"
+
+* {
+  colors-background: #24273a;
+  colors-selected: #303446;
+  colors-placeholder: #B0B8D3;
+  colors-border: #24273a;
+  colors-text: #B0B8D3;
+}
+
+mode-switcher,
+listview,
+scrollbar, 
+inputbar, 
+error-message,
+message {
+  border-radius: 0;
+}
+
+window {
+  width: 500px;
+}
