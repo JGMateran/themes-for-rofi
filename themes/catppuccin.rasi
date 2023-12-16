@@ -17,6 +17,10 @@ message {
   border-radius: 0;
 }
 
+mode-switcher {
+  margin: 0;
+}
+
 window {
   width: 500px;
 }
